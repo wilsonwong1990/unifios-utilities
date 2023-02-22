@@ -121,7 +121,7 @@ If you want to run a DHCP server as well you need to add the following lines:
         --hostname pi.hole \
         -e VIRTUAL_HOST="pi.hole" \
         -e PROXY_LOCATION="pi.hole" \
-        -e FTLCONF_REPLY_ADDR4="10.0.5.3" \
+        -e FTLCONF_REPLY_ADDR4="192.168.5.3" \
         -e IPv6="False" \
         pihole/pihole:latest
     ```
